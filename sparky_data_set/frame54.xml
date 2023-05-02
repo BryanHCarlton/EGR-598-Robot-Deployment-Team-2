@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sparky_data_set</folder>
+	<filename>frame54.png</filename>
+	<path>/home/ay93/sparky_ws/sparky_data_set/frame54.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sparky</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>37</xmin>
+			<ymin>1</ymin>
+			<xmax>147</xmax>
+			<ymax>88</ymax>
+		</bndbox>
+	</object>
+</annotation>

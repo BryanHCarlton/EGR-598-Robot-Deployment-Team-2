@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sparky_data_set</folder>
+	<filename>frame76 (2).png</filename>
+	<path>/home/ay93/sparky_ws/sparky_data_set/frame76 (2).png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sparky</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>54</ymin>
+			<xmax>84</xmax>
+			<ymax>118</ymax>
+		</bndbox>
+	</object>
+</annotation>

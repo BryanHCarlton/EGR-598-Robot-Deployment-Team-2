@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/sparky_package/sparky_package.egg-info
+writing ../../build/sparky_package/sparky_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/sparky_package/sparky_package.egg-info/dependency_links.txt
+writing entry points to ../../build/sparky_package/sparky_package.egg-info/entry_points.txt
+writing requirements to ../../build/sparky_package/sparky_package.egg-info/requires.txt
+writing top-level names to ../../build/sparky_package/sparky_package.egg-info/top_level.txt
+writing manifest file '../../build/sparky_package/sparky_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/sparky_package/sparky_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/sparky_package/sparky_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ay93/sparky_ws/build/sparky_package/build
+creating /home/ay93/sparky_ws/build/sparky_package/build/lib
+creating /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package
+copying sparky_package/__init__.py -> /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package
+copying sparky_package/sparky_node.py -> /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package
+running install
+running install_lib
+creating /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package
+copying /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package/__init__.py -> /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package
+copying /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package/sparky_node.py -> /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package
+byte-compiling /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package/sparky_node.py to sparky_node.cpython-38.pyc
+running install_data
+creating /home/ay93/sparky_ws/install/sparky_package/share/ament_index
+creating /home/ay93/sparky_ws/install/sparky_package/share/ament_index/resource_index
+creating /home/ay93/sparky_ws/install/sparky_package/share/ament_index/resource_index/packages
+copying resource/sparky_package -> /home/ay93/sparky_ws/install/sparky_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/ay93/sparky_ws/install/sparky_package/share/sparky_package
+running install_egg_info
+Copying ../../build/sparky_package/sparky_package.egg-info to /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing sparky_node script to /home/ay93/sparky_ws/install/sparky_package/lib/sparky_package
+writing list of installed files to '/home/ay93/sparky_ws/build/sparky_package/install.log'

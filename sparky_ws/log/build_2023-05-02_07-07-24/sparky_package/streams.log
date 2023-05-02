@@ -1,0 +1,25 @@
+[1.061s] Invoking command in '/home/ay93/sparky_ws/src/sparky_package': PYTHONPATH=/home/ay93/sparky_ws/build/sparky_package/prefix_override:/home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sparky_package build --build-base /home/ay93/sparky_ws/build/sparky_package/build install --record /home/ay93/sparky_ws/build/sparky_package/install.log --single-version-externally-managed
+[1.363s] running egg_info
+[1.364s] writing ../../build/sparky_package/sparky_package.egg-info/PKG-INFO
+[1.367s] writing dependency_links to ../../build/sparky_package/sparky_package.egg-info/dependency_links.txt
+[1.367s] writing entry points to ../../build/sparky_package/sparky_package.egg-info/entry_points.txt
+[1.367s] writing requirements to ../../build/sparky_package/sparky_package.egg-info/requires.txt
+[1.367s] writing top-level names to ../../build/sparky_package/sparky_package.egg-info/top_level.txt
+[1.408s] reading manifest file '../../build/sparky_package/sparky_package.egg-info/SOURCES.txt'
+[1.409s] writing manifest file '../../build/sparky_package/sparky_package.egg-info/SOURCES.txt'
+[1.410s] running build
+[1.410s] running build_py
+[1.410s] copying sparky_package/sparky_node.py -> /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package
+[1.410s] running install
+[1.411s] running install_lib
+[1.413s] copying /home/ay93/sparky_ws/build/sparky_package/build/lib/sparky_package/sparky_node.py -> /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package
+[1.414s] byte-compiling /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package/sparky_node.py to sparky_node.cpython-38.pyc
+[1.418s] running install_data
+[1.418s] copying package.xml -> /home/ay93/sparky_ws/install/sparky_package/share/sparky_package
+[1.418s] running install_egg_info
+[1.422s] removing '/home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.423s] Copying ../../build/sparky_package/sparky_package.egg-info to /home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages/sparky_package-0.0.0-py3.8.egg-info
+[1.427s] running install_scripts
+[1.446s] Installing sparky_node script to /home/ay93/sparky_ws/install/sparky_package/lib/sparky_package
+[1.447s] writing list of installed files to '/home/ay93/sparky_ws/build/sparky_package/install.log'
+[1.477s] Invoked command in '/home/ay93/sparky_ws/src/sparky_package' returned '0': PYTHONPATH=/home/ay93/sparky_ws/build/sparky_package/prefix_override:/home/ay93/sparky_ws/install/sparky_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sparky_package build --build-base /home/ay93/sparky_ws/build/sparky_package/build install --record /home/ay93/sparky_ws/build/sparky_package/install.log --single-version-externally-managed

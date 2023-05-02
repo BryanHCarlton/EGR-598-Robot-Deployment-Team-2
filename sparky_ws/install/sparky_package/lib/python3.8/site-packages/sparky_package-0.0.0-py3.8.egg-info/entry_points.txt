@@ -1,0 +1,3 @@
+[console_scripts]
+sparky_node = sparky_package.sparky_node:main
+

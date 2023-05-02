@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/sparky_package/sparky_package.egg-info/PKG-INFO
+../../build/sparky_package/sparky_package.egg-info/SOURCES.txt
+../../build/sparky_package/sparky_package.egg-info/dependency_links.txt
+../../build/sparky_package/sparky_package.egg-info/entry_points.txt
+../../build/sparky_package/sparky_package.egg-info/requires.txt
+../../build/sparky_package/sparky_package.egg-info/top_level.txt
+../../build/sparky_package/sparky_package.egg-info/zip-safe
+resource/sparky_package
+sparky_package/__init__.py
+sparky_package/sparky_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

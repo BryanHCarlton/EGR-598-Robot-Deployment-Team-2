@@ -144,11 +144,13 @@ In common with other teams, our team was required to make difficult tradeoffs du
 
 [![vid0](http://img.youtube.com/vi/DDGkr8f-Y0k/0.jpg)](http://www.youtube.com/watch?v=DDGkr8f-Y0k)
 
-Complete Walktrhough of Implementation with troubleshooting 
+Complete Walkthrough of Implementation with troubleshooting 
+
 
 [![vid1](http://img.youtube.com/vi/qVNyMxsM1-8/0.jpg)](http://www.youtube.com/watch?v=qVNyMxsM1-8)
 
 Short Video Showing a live demo
+
 
 [![vid2](http://img.youtube.com/vi/8MxrQtono7k/0.jpg)](http://www.youtube.com/watch?v=8MxrQtono7k)
 

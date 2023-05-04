@@ -138,11 +138,14 @@ In common with other teams, our team was required to make difficult tradeoffs du
 
 ## Task Completion Videos
 
-1
-2
+[![vid1](http://img.youtube.com/vi/qVNyMxsM1-8/0.jpg)](http://www.youtube.com/watch?v=qVNyMxsM1-8)
+
+Video Showing a live demo
+
+[![vid2](http://img.youtube.com/vi/8MxrQtono7k/0.jpg)](http://www.youtube.com/watch?v=8MxrQtono7k)
+
+Screen recorded video showing code execution in terminal
 
 ## Elevetor Pitch Video
 
-1
-
-[![WSparky Detection Deep Learning Turtlebot ROS 2 Team-2](https://github.com/BryanHCarlton/EGR-598-Robot-Deployment-Team-2/blob/main/Sparky_image.png?raw=true)](https://youtu.be/cFOAgkomeCk)
+[![vid3](http://img.youtube.com/vi/BUFrLVLLxyA/0.jpg)](http://www.youtube.com/watch?v=BUFrLVLLxyA)

@@ -130,7 +130,11 @@ Our ROS architecture is pretty straightforward and very user friendly. First a c
 
 ![img8](assets/Picture8.png)
 
-ROS architecture captured and displayed by rqt_graph 
+Simplified ROS architecture captured and displayed by rqt_graph 
+
+![img8](assets/rosgraphfinalll.png)
+
+Actual ROS architecture snippet captured and displayed by rqt_graph 
 
 ## Trade-offs
 

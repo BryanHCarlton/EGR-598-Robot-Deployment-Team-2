@@ -29,12 +29,80 @@ Our team made the needed progress of collecting the required data for the projec
 
 ## Data Examples
 
-1
-2
-3
-4
-5
-6
+![img1](assets/Picture0.png)
+
+Raw Image from Oak-D camera
+
+![img2](assets/Picture01.png)
+
+Image bound defined in LabelImg
+
+Output .xml file after tagging:
+```
+<annotation>
+	<folder>sparky_data_set</folder>
+	<filename>frame0.png</filename>
+	<path>/home/ay93/sparky_ws/sparky_data_set/frame0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sparky</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>69</ymin>
+			<xmax>215</xmax>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+</annotation>
+```
+![img3](assets/Picture1.png)
+
+Another Raw Image from Oak-D camera
+
+![img4](assets/Picture11.png)
+
+Another Image bound defined in LabelImg
+
+Output .xml file after tagging:
+```
+<annotation>
+	<folder>sparky_data_set</folder>
+	<filename>frame2 (2).png</filename>
+	<path>/home/ay93/sparky_ws/sparky_data_set/frame2 (2).png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sparky</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>42</ymin>
+			<xmax>188</xmax>
+			<ymax>143</ymax>
+		</bndbox>
+	</object>
+</annotation>
+```
 
 ## Deep Learning Model
 
@@ -44,15 +112,25 @@ The deep learning model used in this project comprises two neural networks, name
 
 The shared GoogleColab document came with an integrated two-part tester code script which tests the accuracy of the model. First it tests a batch of the image data set and outputs a bounding box with the score included, as seen in Figure 8. The second part of the test is conducted by measuring the "mean average precision" (mAP) score. The calculated mAP score came out to be 92.31%. The additional way we were able to deem the training a success, was by the systems accurate recognition of Sparky. This validation was monitored through our ROS-Python code script. Our code script, named “sparky_node” prints the percentage that the trained model outputs as it is trying to determine if an image of sparky is inside the frame.Figure 10 depicts the expected behavior by printing out a 99% rating when a Sparky is visible in the camera’s frame.
 
-1
-2
-3
+![img5](assets/Picture5.png)
+
+Output test result
+
+![img6](assets/Picture6.png)
+
+Snippet of mAP test result
+
+![img7](assets/Picture7.png)
+
+Validation screenshot with video feed and score terminal output
 
 ## ROS Architecture
 
 Our ROS architecture is pretty straightforward and very user friendly. First a connected Turtebot4 with a camera publishing to the /color/preview/image topic. Our sparky node acts as both a topic subscriber and a topic publisher. It subscribes to the /color/image/preview topic in order to receive the video feed originating from the mounted camera. The frames are then processed through the implementation of the trained tensorflow model in the script code contained in the sparky node. This is done to evaluate the incoming frames and determine the percentage score for sparky's detection. As the code runs, it also prints the percentage score live as the video frames are fed through the trained model. Lastly, the sparky node constantly publishes to the cmd_vel topic in the form of an angular-z command to the turieltbot’s wheel. We implemented the logic to continuously rotate until the score is higher than 90%, which then stops rotating to keep the detected sparky in frame. 
 
-1
+![img8](assets/Picture8.png)
+
+ROS architecture captured and displayed by rqt_graph 
 
 ## Trade-offs
 
